@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A8AF2DF984673D7ABA7E8B8217FD93 /* OATransformLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F8AA28BA2CA0C24DF9CB17CD0DFE594C /* OATransformLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B1C18B9FA9FF75604EECBB13CE9673F /* OAStackViewDistributionStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 976ECAB45F49B8511A724CA23F5F938A /* OAStackViewDistributionStrategy.m */; };
+		273364E8F7A39DA1972AF89698C6869C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		273E63EA80595BFE11E6E305B43ADDFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		378B19395368B13148491F250896EFB7 /* OAStackViewAlignmentStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E5D9F14155E81A5A24D3C5C91C63AC /* OAStackViewAlignmentStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BE6591A73AF2D192999A092DD6B1C33 /* OAStackView+Traversal.h in Headers */ = {isa = PBXBuildFile; fileRef = 476383D378A98E497851F93770E234B0 /* OAStackView+Traversal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FE72699C7536311E583284368297795 /* OAStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FBA84DCDA5F1123F82C4600A274EA16 /* OAStackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4402614FFC3DB0B027BA045564432081 /* OAStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3896B8CA643DB4B0FCA9833577E60F20 /* OAStackView-dummy.m */; };
+		562BB0BAEFCFBCF0F99A61B6C8FA904D /* OAStackViewDistributionStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = 08EDC3D26D0C822E33389683D08D4DCB /* OAStackViewDistributionStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EC492939683BF9E1F16ABC5A396E9BE /* OAStackViewAlignmentStrategyBaseline.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D695CA28E7C8C96E10AE75BF3AB3EA /* OAStackViewAlignmentStrategyBaseline.m */; };
+		66A55CF1BB2E5E8610787FFA2BE4F97E /* OAStackView+Traversal.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CA5F40FA501BF1BC5E0AD5A114EE9D /* OAStackView+Traversal.m */; };
+		6718F9AB77D82CF88481D460D8A3DDF5 /* OAStackViewAlignmentStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 641FF7725BD4A3693CA632E311756C6E /* OAStackViewAlignmentStrategy.m */; };
+		6B706F292735AEA6E9D2F5240750E2ED /* _OALayoutGuide.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BEE5112125741A7EDCAF16CECCCD88C /* _OALayoutGuide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C443B0810350C08EC6FEB75A53CAF55 /* OAStackView+Hiding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3651B830AF30CF09CB283E7770D73B57 /* OAStackView+Hiding.m */; };
+		9330CBD72B42917FEE38A24B01F414D5 /* OAStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06261AFE6A6E444473FA4DE48C36B340 /* OAStackView.m */; };
+		99BCACDB1BECCF20411D52FA20946681 /* _OALayoutGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 5006B46EC2A2684C2643F4849D816A25 /* _OALayoutGuide.m */; };
+		9D286FF1953C00899FAE93E08987107C /* OAStackView+Hiding.h in Headers */ = {isa = PBXBuildFile; fileRef = E155E6912078FDEDF3DC30E7E68E21A1 /* OAStackView+Hiding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF9B5025C3E818EE164976C0D76689E8 /* OATransformLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A362CD3227D3AC96D85F5CF7DB77C52A /* OATransformLayer.m */; };
+		BC86042893F1D74FC42E732977292BA6 /* OAStackViewAlignmentStrategyBaseline.h in Headers */ = {isa = PBXBuildFile; fileRef = 1800CAED9E104E515D48728D37486F95 /* OAStackViewAlignmentStrategyBaseline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8C9E38FEE9A33CB5442F592182BF834 /* OAStackView+Constraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 347613707BF3354267A4142FB259A28C /* OAStackView+Constraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD63CB4154ECF2AFBCB46091E80C0999 /* Pods-scrollviewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 643670A28B2D94BEA6C0F36065F496A3 /* Pods-scrollviewDemo-dummy.m */; };
+		DF952CF23282929CFFBF0EAAE1D81F26 /* OAStackView+Constraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C9DD163E1DF8676F59E79B0AB43F75 /* OAStackView+Constraint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C1CDADAE25A46676100CBE78E242496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 599A2813FA5E896ED708C9CB57996E9A;
+			remoteInfo = OAStackView;
+		};
+		8FF09856A9143A2D5F8876D3ED55E0D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6BC9E0FDCFFB1931B7A5D578B166227;
+			remoteInfo = "OAStackView-OAStackView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06261AFE6A6E444473FA4DE48C36B340 /* OAStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAStackView.m; path = Pod/Classes/OAStackView.m; sourceTree = "<group>"; };
+		08EDC3D26D0C822E33389683D08D4DCB /* OAStackViewDistributionStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAStackViewDistributionStrategy.h; path = Pod/Classes/OAStackViewDistributionStrategy.h; sourceTree = "<group>"; };
+		1597B1F44B9B725B49F7E4E02D5D7168 /* libPods-scrollviewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-scrollviewDemo.a"; path = "libPods-scrollviewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1800CAED9E104E515D48728D37486F95 /* OAStackViewAlignmentStrategyBaseline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAStackViewAlignmentStrategyBaseline.h; path = Pod/Classes/OAStackViewAlignmentStrategyBaseline.h; sourceTree = "<group>"; };
+		18E6A77CF1ADB5016615EEA66CDA1D53 /* libOAStackView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libOAStackView.a; path = libOAStackView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E9F3D3304360EE828F1E82F163B77B3 /* Pods-scrollviewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-scrollviewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B23744019449D6FC7B908206EB2867D /* Pods-scrollviewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-scrollviewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2FBA84DCDA5F1123F82C4600A274EA16 /* OAStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAStackView.h; path = Pod/Classes/OAStackView.h; sourceTree = "<group>"; };
+		347613707BF3354267A4142FB259A28C /* OAStackView+Constraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OAStackView+Constraint.h"; path = "Pod/Classes/OAStackView+Constraint.h"; sourceTree = "<group>"; };
+		3651B830AF30CF09CB283E7770D73B57 /* OAStackView+Hiding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OAStackView+Hiding.m"; path = "Pod/Classes/OAStackView+Hiding.m"; sourceTree = "<group>"; };
+		3896B8CA643DB4B0FCA9833577E60F20 /* OAStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OAStackView-dummy.m"; sourceTree = "<group>"; };
+		3BEE5112125741A7EDCAF16CECCCD88C /* _OALayoutGuide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _OALayoutGuide.h; path = Pod/Classes/_OALayoutGuide.h; sourceTree = "<group>"; };
+		476383D378A98E497851F93770E234B0 /* OAStackView+Traversal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OAStackView+Traversal.h"; path = "Pod/Classes/OAStackView+Traversal.h"; sourceTree = "<group>"; };
+		5006B46EC2A2684C2643F4849D816A25 /* _OALayoutGuide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _OALayoutGuide.m; path = Pod/Classes/_OALayoutGuide.m; sourceTree = "<group>"; };
+		55C9DD163E1DF8676F59E79B0AB43F75 /* OAStackView+Constraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OAStackView+Constraint.m"; path = "Pod/Classes/OAStackView+Constraint.m"; sourceTree = "<group>"; };
+		574D124AE5BCC22B7BDA9581D5D750EA /* OAStackView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = OAStackView.bundle; path = OAStackView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		641FF7725BD4A3693CA632E311756C6E /* OAStackViewAlignmentStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAStackViewAlignmentStrategy.m; path = Pod/Classes/OAStackViewAlignmentStrategy.m; sourceTree = "<group>"; };
+		643670A28B2D94BEA6C0F36065F496A3 /* Pods-scrollviewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-scrollviewDemo-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66F8E02E6F0EF4D41E16DCFC2B68C27D /* OAStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OAStackView.xcconfig; sourceTree = "<group>"; };
+		72F29168C66F187104E4FC8B72FB0765 /* Pods-scrollviewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-scrollviewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		786ED8D28D2E69715ECBABDA0E973856 /* ResourceBundle-OAStackView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OAStackView-Info.plist"; sourceTree = "<group>"; };
+		89D695CA28E7C8C96E10AE75BF3AB3EA /* OAStackViewAlignmentStrategyBaseline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAStackViewAlignmentStrategyBaseline.m; path = Pod/Classes/OAStackViewAlignmentStrategyBaseline.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		976ECAB45F49B8511A724CA23F5F938A /* OAStackViewDistributionStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAStackViewDistributionStrategy.m; path = Pod/Classes/OAStackViewDistributionStrategy.m; sourceTree = "<group>"; };
+		9B8EB0F350F52A5CF5873B1098757430 /* Pods-scrollviewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-scrollviewDemo-frameworks.sh"; sourceTree = "<group>"; };
+		A362CD3227D3AC96D85F5CF7DB77C52A /* OATransformLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OATransformLayer.m; path = Pod/Classes/OATransformLayer.m; sourceTree = "<group>"; };
+		A3CA5F40FA501BF1BC5E0AD5A114EE9D /* OAStackView+Traversal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OAStackView+Traversal.m"; path = "Pod/Classes/OAStackView+Traversal.m"; sourceTree = "<group>"; };
+		C990BE1308682E7C2B114A7D03654839 /* Pods-scrollviewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-scrollviewDemo-resources.sh"; sourceTree = "<group>"; };
+		CED26380D9F8CA9D9B0A7EABC38BD425 /* Pods-scrollviewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-scrollviewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D4E5D9F14155E81A5A24D3C5C91C63AC /* OAStackViewAlignmentStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAStackViewAlignmentStrategy.h; path = Pod/Classes/OAStackViewAlignmentStrategy.h; sourceTree = "<group>"; };
+		DB398B4D670FFAC1049D0FD795F93866 /* OAStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OAStackView-prefix.pch"; sourceTree = "<group>"; };
+		E155E6912078FDEDF3DC30E7E68E21A1 /* OAStackView+Hiding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OAStackView+Hiding.h"; path = "Pod/Classes/OAStackView+Hiding.h"; sourceTree = "<group>"; };
+		F8AA28BA2CA0C24DF9CB17CD0DFE594C /* OATransformLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OATransformLayer.h; path = Pod/Classes/OATransformLayer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		416125026FBA0A99FAC3F137EF71354D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491A470022E2F5B98A14CD601D2692F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273E63EA80595BFE11E6E305B43ADDFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D1AED6359CE934C4CC56B5F31EF4F88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273364E8F7A39DA1972AF89698C6869C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AB320ABD8C16F5BC1B7931B5EC559950 /* Pods */,
+				8F2B6977784FD20EE9F150EB44E25116 /* Products */,
+				BDE5F489AB8B0CCBFD1503A6B2EF1032 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F2B6977784FD20EE9F150EB44E25116 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E6A77CF1ADB5016615EEA66CDA1D53 /* libOAStackView.a */,
+				1597B1F44B9B725B49F7E4E02D5D7168 /* libPods-scrollviewDemo.a */,
+				574D124AE5BCC22B7BDA9581D5D750EA /* OAStackView.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		997A7950F624C72A00932B3A5E63B82C /* Pods-scrollviewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1E9F3D3304360EE828F1E82F163B77B3 /* Pods-scrollviewDemo-acknowledgements.markdown */,
+				72F29168C66F187104E4FC8B72FB0765 /* Pods-scrollviewDemo-acknowledgements.plist */,
+				643670A28B2D94BEA6C0F36065F496A3 /* Pods-scrollviewDemo-dummy.m */,
+				9B8EB0F350F52A5CF5873B1098757430 /* Pods-scrollviewDemo-frameworks.sh */,
+				C990BE1308682E7C2B114A7D03654839 /* Pods-scrollviewDemo-resources.sh */,
+				CED26380D9F8CA9D9B0A7EABC38BD425 /* Pods-scrollviewDemo.debug.xcconfig */,
+				2B23744019449D6FC7B908206EB2867D /* Pods-scrollviewDemo.release.xcconfig */,
+			);
+			name = "Pods-scrollviewDemo";
+			path = "Target Support Files/Pods-scrollviewDemo";
+			sourceTree = "<group>";
+		};
+		AB320ABD8C16F5BC1B7931B5EC559950 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5C00B4012BD6DBA078D0E27FFE6CD2A /* OAStackView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5C00B4012BD6DBA078D0E27FFE6CD2A /* OAStackView */ = {
+			isa = PBXGroup;
+			children = (
+				3BEE5112125741A7EDCAF16CECCCD88C /* _OALayoutGuide.h */,
+				5006B46EC2A2684C2643F4849D816A25 /* _OALayoutGuide.m */,
+				2FBA84DCDA5F1123F82C4600A274EA16 /* OAStackView.h */,
+				06261AFE6A6E444473FA4DE48C36B340 /* OAStackView.m */,
+				347613707BF3354267A4142FB259A28C /* OAStackView+Constraint.h */,
+				55C9DD163E1DF8676F59E79B0AB43F75 /* OAStackView+Constraint.m */,
+				E155E6912078FDEDF3DC30E7E68E21A1 /* OAStackView+Hiding.h */,
+				3651B830AF30CF09CB283E7770D73B57 /* OAStackView+Hiding.m */,
+				476383D378A98E497851F93770E234B0 /* OAStackView+Traversal.h */,
+				A3CA5F40FA501BF1BC5E0AD5A114EE9D /* OAStackView+Traversal.m */,
+				D4E5D9F14155E81A5A24D3C5C91C63AC /* OAStackViewAlignmentStrategy.h */,
+				641FF7725BD4A3693CA632E311756C6E /* OAStackViewAlignmentStrategy.m */,
+				1800CAED9E104E515D48728D37486F95 /* OAStackViewAlignmentStrategyBaseline.h */,
+				89D695CA28E7C8C96E10AE75BF3AB3EA /* OAStackViewAlignmentStrategyBaseline.m */,
+				08EDC3D26D0C822E33389683D08D4DCB /* OAStackViewDistributionStrategy.h */,
+				976ECAB45F49B8511A724CA23F5F938A /* OAStackViewDistributionStrategy.m */,
+				F8AA28BA2CA0C24DF9CB17CD0DFE594C /* OATransformLayer.h */,
+				A362CD3227D3AC96D85F5CF7DB77C52A /* OATransformLayer.m */,
+				CAF1DEAC9C72583D84A76289F29C4F6D /* Support Files */,
+			);
+			name = OAStackView;
+			path = OAStackView;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDE5F489AB8B0CCBFD1503A6B2EF1032 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				997A7950F624C72A00932B3A5E63B82C /* Pods-scrollviewDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CAF1DEAC9C72583D84A76289F29C4F6D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66F8E02E6F0EF4D41E16DCFC2B68C27D /* OAStackView.xcconfig */,
+				3896B8CA643DB4B0FCA9833577E60F20 /* OAStackView-dummy.m */,
+				DB398B4D670FFAC1049D0FD795F93866 /* OAStackView-prefix.pch */,
+				786ED8D28D2E69715ECBABDA0E973856 /* ResourceBundle-OAStackView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OAStackView";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B91BDBD4EEEED10FCA0F7F151EE86B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B706F292735AEA6E9D2F5240750E2ED /* _OALayoutGuide.h in Headers */,
+				D8C9E38FEE9A33CB5442F592182BF834 /* OAStackView+Constraint.h in Headers */,
+				9D286FF1953C00899FAE93E08987107C /* OAStackView+Hiding.h in Headers */,
+				3BE6591A73AF2D192999A092DD6B1C33 /* OAStackView+Traversal.h in Headers */,
+				3FE72699C7536311E583284368297795 /* OAStackView.h in Headers */,
+				378B19395368B13148491F250896EFB7 /* OAStackViewAlignmentStrategy.h in Headers */,
+				BC86042893F1D74FC42E732977292BA6 /* OAStackViewAlignmentStrategyBaseline.h in Headers */,
+				562BB0BAEFCFBCF0F99A61B6C8FA904D /* OAStackViewDistributionStrategy.h in Headers */,
+				02A8AF2DF984673D7ABA7E8B8217FD93 /* OATransformLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		506FC7F2DED2C8D58052B6691957D549 /* Pods-scrollviewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83DE95305F901A7EEF35373433121EB1 /* Build configuration list for PBXNativeTarget "Pods-scrollviewDemo" */;
+			buildPhases = (
+				0A5EF192571ACDDF858919C9E5C4F481 /* Sources */,
+				491A470022E2F5B98A14CD601D2692F5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76D12893ABF6BD9B41EBFB97607DC6CC /* PBXTargetDependency */,
+			);
+			name = "Pods-scrollviewDemo";
+			productName = "Pods-scrollviewDemo";
+			productReference = 1597B1F44B9B725B49F7E4E02D5D7168 /* libPods-scrollviewDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		599A2813FA5E896ED708C9CB57996E9A /* OAStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6BF341F865419565FB7EAFFD576649D /* Build configuration list for PBXNativeTarget "OAStackView" */;
+			buildPhases = (
+				3DAA6C1F45F308D9A7D4FBF96ABA42B9 /* Sources */,
+				6D1AED6359CE934C4CC56B5F31EF4F88 /* Frameworks */,
+				0B91BDBD4EEEED10FCA0F7F151EE86B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				874A20D3C61B1A6DC72101EAE9BD2B6B /* PBXTargetDependency */,
+			);
+			name = OAStackView;
+			productName = OAStackView;
+			productReference = 18E6A77CF1ADB5016615EEA66CDA1D53 /* libOAStackView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A6BC9E0FDCFFB1931B7A5D578B166227 /* OAStackView-OAStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E73A54C70FCF702A31184AF9CFA4126 /* Build configuration list for PBXNativeTarget "OAStackView-OAStackView" */;
+			buildPhases = (
+				6EAA465B0E84C711BDC4C4B83FDBDF9B /* Sources */,
+				416125026FBA0A99FAC3F137EF71354D /* Frameworks */,
+				3A6CF128AEE44D5CF22D4EB079D286AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OAStackView-OAStackView";
+			productName = "OAStackView-OAStackView";
+			productReference = 574D124AE5BCC22B7BDA9581D5D750EA /* OAStackView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8F2B6977784FD20EE9F150EB44E25116 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				599A2813FA5E896ED708C9CB57996E9A /* OAStackView */,
+				A6BC9E0FDCFFB1931B7A5D578B166227 /* OAStackView-OAStackView */,
+				506FC7F2DED2C8D58052B6691957D549 /* Pods-scrollviewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A6CF128AEE44D5CF22D4EB079D286AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A5EF192571ACDDF858919C9E5C4F481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD63CB4154ECF2AFBCB46091E80C0999 /* Pods-scrollviewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAA6C1F45F308D9A7D4FBF96ABA42B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99BCACDB1BECCF20411D52FA20946681 /* _OALayoutGuide.m in Sources */,
+				DF952CF23282929CFFBF0EAAE1D81F26 /* OAStackView+Constraint.m in Sources */,
+				6C443B0810350C08EC6FEB75A53CAF55 /* OAStackView+Hiding.m in Sources */,
+				66A55CF1BB2E5E8610787FFA2BE4F97E /* OAStackView+Traversal.m in Sources */,
+				4402614FFC3DB0B027BA045564432081 /* OAStackView-dummy.m in Sources */,
+				9330CBD72B42917FEE38A24B01F414D5 /* OAStackView.m in Sources */,
+				6718F9AB77D82CF88481D460D8A3DDF5 /* OAStackViewAlignmentStrategy.m in Sources */,
+				5EC492939683BF9E1F16ABC5A396E9BE /* OAStackViewAlignmentStrategyBaseline.m in Sources */,
+				1B1C18B9FA9FF75604EECBB13CE9673F /* OAStackViewDistributionStrategy.m in Sources */,
+				AF9B5025C3E818EE164976C0D76689E8 /* OATransformLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EAA465B0E84C711BDC4C4B83FDBDF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76D12893ABF6BD9B41EBFB97607DC6CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAStackView;
+			target = 599A2813FA5E896ED708C9CB57996E9A /* OAStackView */;
+			targetProxy = 0C1CDADAE25A46676100CBE78E242496 /* PBXContainerItemProxy */;
+		};
+		874A20D3C61B1A6DC72101EAE9BD2B6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OAStackView-OAStackView";
+			target = A6BC9E0FDCFFB1931B7A5D578B166227 /* OAStackView-OAStackView */;
+			targetProxy = 8FF09856A9143A2D5F8876D3ED55E0D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		404BCD8244A7D392BEEC033FA14AE005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F8E02E6F0EF4D41E16DCFC2B68C27D /* OAStackView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OAStackView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/OAStackView/ResourceBundle-OAStackView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = OAStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		63F6D67C76EAAFEA34D4EB7C394C1098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F8E02E6F0EF4D41E16DCFC2B68C27D /* OAStackView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OAStackView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/OAStackView/ResourceBundle-OAStackView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = OAStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		692AD9FC1C2FF038CEA62145E5C36CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CED26380D9F8CA9D9B0A7EABC38BD425 /* Pods-scrollviewDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9F7ADA11E25436CDA8EDBBDD0131A602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F8E02E6F0EF4D41E16DCFC2B68C27D /* OAStackView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OAStackView/OAStackView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		B18925BAE132AF28D6978ED1A06C8F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B23744019449D6FC7B908206EB2867D /* Pods-scrollviewDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EE533757BE9FA970F0A503888C4D23FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66F8E02E6F0EF4D41E16DCFC2B68C27D /* OAStackView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OAStackView/OAStackView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E73A54C70FCF702A31184AF9CFA4126 /* Build configuration list for PBXNativeTarget "OAStackView-OAStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404BCD8244A7D392BEEC033FA14AE005 /* Debug */,
+				63F6D67C76EAAFEA34D4EB7C394C1098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83DE95305F901A7EEF35373433121EB1 /* Build configuration list for PBXNativeTarget "Pods-scrollviewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				692AD9FC1C2FF038CEA62145E5C36CDD /* Debug */,
+				B18925BAE132AF28D6978ED1A06C8F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6BF341F865419565FB7EAFFD576649D /* Build configuration list for PBXNativeTarget "OAStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F7ADA11E25436CDA8EDBBDD0131A602 /* Debug */,
+				EE533757BE9FA970F0A503888C4D23FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -14,6 +14,8 @@
 		3BC0A09C1FCFF98E005F7967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC0A09A1FCFF98E005F7967 /* LaunchScreen.storyboard */; };
 		3BC0A0A71FCFF98E005F7967 /* scrollviewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC0A0A61FCFF98E005F7967 /* scrollviewDemoTests.swift */; };
 		3BC0A0B21FCFF98E005F7967 /* scrollviewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC0A0B11FCFF98E005F7967 /* scrollviewDemoUITests.swift */; };
+		3BCC58CD1FD0FB5300BE1CF6 /* MenuContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC58CC1FD0FB5300BE1CF6 /* MenuContainerView.swift */; };
+		59B127B2CA3D9FC05D242074 /* libPods-scrollviewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8B09EB142AA116BEB4ED58 /* libPods-scrollviewDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B8B09EB142AA116BEB4ED58 /* libPods-scrollviewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-scrollviewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC0A08E1FCFF98E005F7967 /* scrollviewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrollviewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC0A0911FCFF98E005F7967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BC0A0931FCFF98E005F7967 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,10 @@
 		3BC0A0AD1FCFF98E005F7967 /* scrollviewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scrollviewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC0A0B11FCFF98E005F7967 /* scrollviewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollviewDemoUITests.swift; sourceTree = "<group>"; };
 		3BC0A0B31FCFF98E005F7967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BC506CC1FD64F77000B43F1 /* scrollviewDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "scrollviewDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		3BCC58CC1FD0FB5300BE1CF6 /* MenuContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuContainerView.swift; sourceTree = "<group>"; };
+		7B3FD03537780A43D88523B6 /* Pods-scrollviewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrollviewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-scrollviewDemo/Pods-scrollviewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9022973FAB9E1806B97D7863 /* Pods-scrollviewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrollviewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scrollviewDemo/Pods-scrollviewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59B127B2CA3D9FC05D242074 /* libPods-scrollviewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +89,8 @@
 				3BC0A0A51FCFF98E005F7967 /* scrollviewDemoTests */,
 				3BC0A0B01FCFF98E005F7967 /* scrollviewDemoUITests */,
 				3BC0A08F1FCFF98E005F7967 /* Products */,
+				7863E31695DD7653AA5FAF90 /* Pods */,
+				4CF46EA364882944294DA490 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +113,8 @@
 				3BC0A0981FCFF98E005F7967 /* Assets.xcassets */,
 				3BC0A09A1FCFF98E005F7967 /* LaunchScreen.storyboard */,
 				3BC0A09D1FCFF98E005F7967 /* Info.plist */,
+				3BCC58CC1FD0FB5300BE1CF6 /* MenuContainerView.swift */,
+				3BC506CC1FD64F77000B43F1 /* scrollviewDemo-Bridging-Header.h */,
 			);
 			path = scrollviewDemo;
 			sourceTree = "<group>";
@@ -125,6 +137,23 @@
 			path = scrollviewDemoUITests;
 			sourceTree = "<group>";
 		};
+		4CF46EA364882944294DA490 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B8B09EB142AA116BEB4ED58 /* libPods-scrollviewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7863E31695DD7653AA5FAF90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9022973FAB9E1806B97D7863 /* Pods-scrollviewDemo.debug.xcconfig */,
+				7B3FD03537780A43D88523B6 /* Pods-scrollviewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BC0A0B61FCFF98E005F7967 /* Build configuration list for PBXNativeTarget "scrollviewDemo" */;
 			buildPhases = (
+				07D111C30EA4FE67FF6B4673 /* [CP] Check Pods Manifest.lock */,
 				3BC0A08A1FCFF98E005F7967 /* Sources */,
 				3BC0A08B1FCFF98E005F7967 /* Frameworks */,
 				3BC0A08C1FCFF98E005F7967 /* Resources */,
+				E69174AA0A552952D15B9C81 /* [CP] Embed Pods Frameworks */,
+				617090F13F11D8215513B1F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +225,7 @@
 				TargetAttributes = {
 					3BC0A08D1FCFF98E005F7967 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					3BC0A0A11FCFF98E005F7967 = {
@@ -254,6 +287,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07D111C30EA4FE67FF6B4673 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-scrollviewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		617090F13F11D8215513B1F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-scrollviewDemo/Pods-scrollviewDemo-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/OAStackView/OAStackView.bundle,
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-scrollviewDemo/Pods-scrollviewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E69174AA0A552952D15B9C81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-scrollviewDemo/Pods-scrollviewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BC0A08A1FCFF98E005F7967 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +348,7 @@
 			files = (
 				3BC0A0941FCFF98E005F7967 /* ViewController.swift in Sources */,
 				3BC0A0921FCFF98E005F7967 /* AppDelegate.swift in Sources */,
+				3BCC58CD1FD0FB5300BE1CF6 /* MenuContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,13 +512,19 @@
 		};
 		3BC0A0B71FCFF98E005F7967 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9022973FAB9E1806B97D7863 /* Pods-scrollviewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XTF685ZMW;
 				INFOPLIST_FILE = scrollviewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZRR.scrollviewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "scrollviewDemo/scrollviewDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,13 +532,18 @@
 		};
 		3BC0A0B81FCFF98E005F7967 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3FD03537780A43D88523B6 /* Pods-scrollviewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XTF685ZMW;
 				INFOPLIST_FILE = scrollviewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZRR.scrollviewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "scrollviewDemo/scrollviewDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
